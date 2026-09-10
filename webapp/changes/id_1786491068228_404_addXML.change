@@ -1,0 +1,30 @@
+{
+  "changeType": "addXML",
+  "reference": "customer.zlicense.variant",
+  "namespace": "apps/customer.zlicense.variant/changes/",
+  "creation": "2026-08-11T23:31:19.655Z",
+  "projectId": "customer.zlicense.variant",
+  "packageName": "$TMP",
+  "moduleName": "customer/zlicense/variant/changes/fragments/ExtendedMaint.fragment.xml",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.136.10",
+    "command": "addXML"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1786491068228_404_addXML",
+  "content": {
+    "targetAggregation": "actions",
+    "index": 1,
+    "fragmentPath": "fragments/ExtendedMaint.fragment.xml"
+  },
+  "texts": {},
+  "selector": {
+    "id": "fcg.sll.license.manages1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_TrdCmplncLicenseTP--template::ObjectPage::ObjectPageHeader",
+    "idIsLocal": false
+  },
+  "dependentSelector": {},
+  "jsOnly": false
+}

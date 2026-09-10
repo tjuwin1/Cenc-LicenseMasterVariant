@@ -1,0 +1,78 @@
+{
+  "fileName": "manifest",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "appdescr_variant",
+  "reference": "fcg.sll.license.manages1",
+  "id": "customer.zlicense.variant",
+  "namespace": "apps/fcg.sll.license.manages1/appVariants/customer.zlicense.variant/",
+  "version": "0.1.0",
+  "content": [
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n"
+      },
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "@i18n"
+      },
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ListReport|C_TrdCmplncLicenseTP"
+      },
+      "texts": {
+        "i18n": "i18n/ListReport/C_TrdCmplncLicenseTP/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|C_TrdCmplncLicenseTP"
+      },
+      "texts": {
+        "i18n": "i18n/ObjectPage/C_TrdCmplncLicenseTP/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|C_TrdCmplncLicControlClassTP"
+      },
+      "texts": {
+        "i18n": "i18n/ObjectPage/C_TrdCmplncLicControlClassTP/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|C_TrdCmplncLicTariffNumberTP"
+      },
+      "texts": {
+        "i18n": "i18n/ObjectPage/C_TrdCmplncLicTariffNumberTP/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_setMinUI5Version",
+      "content": {
+        "minUI5Version": "1.136.10"
+      }
+    },
+    {
+      "changeType": "appdescr_app_setTitle",
+      "content": {},
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "changeType": "hideControl",
+  "reference": "customer.zlicense.variant",
+  "namespace": "apps/customer.zlicense.variant/changes/",
+  "creation": "2026-08-11T23:31:19.652Z",
+  "projectId": "customer.zlicense.variant",
+  "packageName": "$TMP",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.136.10",
+    "compositeCommand": "id_1786491015543_231_composite",
+    "command": "remove"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1786491015542_230_hideControl",
+  "content": {},
+  "texts": {},
+  "selector": {
+    "id": "fcg.sll.license.manages1::sap.suite.ui.generic.template.ListReport.view.ListReport::C_TrdCmplncLicenseTP--deleteEntry",
+    "idIsLocal": false
+  },
+  "dependentSelector": {},
+  "jsOnly": false
+}
