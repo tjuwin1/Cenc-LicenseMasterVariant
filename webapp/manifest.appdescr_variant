@@ -110,7 +110,7 @@
                             },
                             "_VisibleActions": {
                                 "RENAME": false,
-                                "DELETE": true,
+                                "DELETE": false,
                                 "ADD": true,
                                 "ADDURL": false,
                                 "DOWNLOAD": true
