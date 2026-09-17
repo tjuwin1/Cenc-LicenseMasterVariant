@@ -1,0 +1,26 @@
+{
+  "changeType": "stashControl",
+  "reference": "customer.zlicense.variant",
+  "namespace": "apps/customer.zlicense.variant/changes/",
+  "creation": "2026-09-16T16:53:59.196Z",
+  "projectId": "customer.zlicense.variant",
+  "packageName": "$TMP",
+  "support": {
+    "generator": "@sap-ux/control-property-editor",
+    "sapui5Version": "1.136.10",
+    "compositeCommand": "id_1789577628476_460_composite",
+    "command": "remove"
+  },
+  "originalLanguage": "EN",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "change",
+  "fileName": "id_1789577628476_459_stashControl",
+  "content": {},
+  "texts": {},
+  "selector": {
+    "id": "fcg.sll.license.manages1::sap.suite.ui.generic.template.ObjectPage.view.Details::C_TrdCmplncLicenseTP--attachmentReuseComponent::simple::Attachments::ComponentSection",
+    "idIsLocal": false
+  },
+  "dependentSelector": {},
+  "jsOnly": false
+}

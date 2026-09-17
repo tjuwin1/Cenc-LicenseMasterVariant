@@ -73,6 +73,54 @@
       "texts": {
         "i18n": "i18n/i18n.properties"
       }
+    },
+    {
+    "changeType": "appdescr_ui_generic_app_changePageConfiguration",
+      "content": {
+          "parentPage": {
+              "component": "sap.suite.ui.generic.template.ObjectPage",
+              "entitySet": "C_TrdCmplncLicenseTP"
+          },
+          "entityPropertyChange": {
+              "propertyPath": "embeddedComponents",
+              "operation": "UPSERT",
+              "propertyValue": {
+                  "simple::AttachmentsExtended": {
+                      "id": "simple::AttachmentsExtended",
+                      "componentUsage": "attachmentReuseComponent",
+                      "title": "Attachments (PDF)",
+                      "settings": {
+                          "mode":"{= ${ui>/editable}?'D':'C'}",
+                          "objectType": "ZOTC_EMBK",
+                          "sapObjectType": "ZZCencoraTrdCmpLicenses",
+                          "objectKey": "{TrdCmplncLicenseUUID}",
+                          "isGuid": true,
+                          "isDraft": false,
+                          "documentType": "ZOTC_LFPD",
+                          "attributeHandling": {
+                            "_VisibleAttributes": {
+                                "UPLOADEDBY": true,
+                                "UPLOADEDON": true,
+                                "FILESIZE": true,
+                                "ENABLELINK": true,
+                                "ATTACHMENTSTATUS": false,
+                                "ATTACHMENTTITLE": true,
+                                "SOURCE": true,
+                                "DIRDETAILS": false
+                            },
+                            "_VisibleActions": {
+                                "RENAME": false,
+                                "DELETE": true,
+                                "ADD": true,
+                                "ADDURL": false,
+                                "DOWNLOAD": true
+                            }
+                        }
+                      }
+                  }
+              }
+          } 
+      }
     }
   ]
 }
